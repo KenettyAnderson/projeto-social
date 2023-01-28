@@ -1,14 +1,16 @@
+
 body {
     background-image: url(imagens/pacote-d013/fundo-madeira.jpg);
     background-size: cover;
     position: relative;
-    height: 94vh;
+    height: 100vh;
+    padding-top: 20px;
     
 }
 
 div#iphone {
+    padding-top: 20px;
     position: absolute;
-    background-size: 100% 100%;
     left: 50%;
     top: 50%;
 
@@ -17,5 +19,25 @@ div#iphone {
 }
 
 div#menu {
-    
+    display: grid;
+    position: absolute;
+    right: 25px;
+}
+
+div#menu img {
+    border-radius: 50%;
+    padding-bottom: 15px;
+    position: relative;
+    max-width: 50px;
+    max-height: 50px;
+    min-height: 50px;
+    min-width: 50px;
+
+}
+
+div#menu a img:hover {
+    border: 1px solid white;
+}
+
+iframe {
 }

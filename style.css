@@ -40,4 +40,9 @@ div#menu a img:hover {
 }
 
 iframe {
+    position: absolute;
+    width: 268px;
+    height: 471px;
+    padding-top: 80px;
+    left: 22px;
 }

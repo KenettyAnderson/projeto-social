@@ -22,27 +22,28 @@ div#menu {
     display: grid;
     position: absolute;
     right: 25px;
+    margin-left: 25px;
+
 }
 
 div#menu img {
-    border-radius: 50%;
-    padding-bottom: 15px;
-    position: relative;
+    margin-bottom:  15px;
     max-width: 50px;
     max-height: 50px;
-    min-height: 50px;
-    min-width: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
 
 }
 
 div#menu a img:hover {
     border: 1px solid white;
+    
 }
 
 iframe {
     position: absolute;
     width: 268px;
-    height: 471px;
+    height: 472px;
     padding-top: 80px;
-    left: 22px;
+    left: 21px;
 }

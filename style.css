@@ -19,11 +19,7 @@ div#iphone {
 }
 
 div#menu {
-    display: grid;
-    position: absolute;
-    right: 25px;
-    margin-left: 25px;
-
+    text-align: right;
 }
 
 div#menu img {
